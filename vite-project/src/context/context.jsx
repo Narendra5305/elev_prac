@@ -12,7 +12,7 @@ export const ProductContextProvider = ({children}) =>{
     const [pageData , setPageData] = useState([])
     const [perPage , setPerPage] = useState(5)
 
-    console.log(perPage)
+   
 
     const [currentPage , setCurrentPage] = useState(0);
 
@@ -48,7 +48,7 @@ export const ProductContextProvider = ({children}) =>{
         const data = filterProductData.slice(currentPage*perPage , (currentPage*perPage)+perPage)
         setPageData([...data])
 
-    }, [ filterProductData ,perPage])
+    }, [ filterProductData ,perPage ,currentPage])
 
 
     return(
