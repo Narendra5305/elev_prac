@@ -1,0 +1,42 @@
+
+.navbar{
+    background-color: rgb(0, 102, 255);
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-cont{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.nav-pagination{
+    color: white;
+    font-size: 20px;
+}
+
+.nav-pagination select{
+    margin-left: 20px;
+    height: 30px;
+    width: 60px;
+    font-size: 20px;
+}
+
+
+
+.logo h2{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.search input{
+    width: 350px;
+    height: 30px;
+}
